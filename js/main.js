@@ -206,6 +206,7 @@ function update() {
                 'finance-app': { message: 'App de Controle Financeiro' },
                 'currency-app': { message: 'Conversor De Moedas' },
                 'game-dev': { message: 'Jogo de Memória' },
+                'doctor-page': { message: 'Dr. Página Pessoal' },
 
                 'currency-converter': { message: 'Conversor de Moedas' },
                 'javascript-game': { message: 'Jogo de Memória' },
@@ -278,9 +279,9 @@ function update() {
                 'finance-app': { message: 'Finance App' },
                 'currency-app': { message: 'Currency App' },
                 'game-dev': { message: 'Memory Game' },
-
                 'currency-converter': { message: 'Currency converter page' },
                 'javascript-game': { message: 'Memory Game' },
+                'doctor-page': { message: 'Doctor Page Site' },
                 'form-contact': { message: 'Form Contact' },
                 'contact-me': { message: 'Contact Me' },
                 'copyright': { message: 'All Right Reserved' },
