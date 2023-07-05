@@ -207,6 +207,7 @@ function update() {
                 'currency-app': { message: 'Conversor De Moedas' },
                 'game-dev': { message: 'Jogo de Memória' },
                 'doctor-page': { message: 'Dr. Página Pessoal' },
+                'lawyer-page': { message: 'Página Advocacia' },
 
                 'currency-converter': { message: 'Conversor de Moedas' },
                 'javascript-game': { message: 'Jogo de Memória' },
@@ -282,6 +283,8 @@ function update() {
                 'currency-converter': { message: 'Currency converter page' },
                 'javascript-game': { message: 'Memory Game' },
                 'doctor-page': { message: 'Doctor Page Site' },
+                'lawyer-page': { message: 'Lawyer Page' },
+
                 'form-contact': { message: 'Form Contact' },
                 'contact-me': { message: 'Contact Me' },
                 'copyright': { message: 'All Right Reserved' },
@@ -290,6 +293,7 @@ function update() {
 
         };
 
+     //Translate function   
         function translate(id, locale) {
             let l = locales[locale];
 
