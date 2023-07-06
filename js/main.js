@@ -53,16 +53,16 @@
         }
     });
 
-    //Cookies storage
-    if (!localStorage.getItem("cookiesAccepted")) { 
-        var cookieMessage = document.getElementById('cookie-notification');  
-        var closeCookie = document.getElementById('cookie-notification-close');
-        
-        cookieMessage.style.display = 'block';  
-        closeCookie.addEventListener("click", function(e) {  
+//Cookies storage
+    if (!localStorage.getItem("cookiesAccepted")) {
+        let cookieMessage = document.getElementById('cookie-notification');
+        let closeCookie = document.getElementById('cookie-notification-close');
+
+        cookieMessage.style.display = 'block';
+        closeCookie.addEventListener("click", function(e) {
           e.preventDefault();
           localStorage.setItem("cookiesAccepted", true);
-          
+
           cookieMessage.style.display = 'none';
         });
       }
@@ -73,22 +73,6 @@
             $(this).css("width", $(this).attr("aria-valuenow") + '%');
         });
     }, {offset: '80%'});
-
-
-    // Typed Text Initiate
-
-   /* if ($('.dev .dev-text h2').length == 1) {
-        let typed_strings = $('.dev .dev-text .typed-text').text();
-        let typed = new Typed('.dev .dev-text h2', {
-            strings: typed_strings.split(', '),
-            typeSpeed: 150,
-            backSpeed: 20,
-            smartBackspace: false,
-            loop: true
-        });
-    } */
-
-
 
  //Progressive Skill Bar
 const progress = document.getElementById("progress-skill")
@@ -168,8 +152,12 @@ function update() {
                 'work': { message: 'Sou freelancer, Desenvolvedor Web e Desenvolvedor Front-End.'},
                 'hire': { message: 'Contrate-me'},
                 'contact': { message: 'Contato'},
-                'social': { message: 'Mídia Social'},
-                'about-me': { message: 'Sobre Mim, Informações Pessoais'},
+                'social': { message: 'Mídia Social' },
+                'cookies-privacy': { message: 'Valorizo a sua privacidade' },
+                'cookies-privacy-text': { message: 'Este site utiliza cookies de navegação para a melhor experiência do usuário e  melhor desempenho. Ao utilizar este site, você concorda com o uso de cookies.' },
+                'cookies-privacy-link': { message: 'Saiba mais...' },
+                'cookies-privacy-button': { message: 'Aceitar' },
+                'about-me': { message: 'Sobre Mim, Informações Pessoais' },
                 'web-xp': { message: 'Experiência Web'},
                 'about-job': { message: 'Meu nome é Patrique Porto, e sou um Desenvolvedor Front-End apaixonado por usar tecnologias web para criar sites e produtos incríveis, com foco na resolução de problemas para diferentes nichos e diferentes mercados usando o poder da tecnologia.'},
                 'xp-web': { message: '2 anos de experiência em Desenvolvimento Web'},
@@ -216,15 +204,15 @@ function update() {
                 'personal-projects': { message: 'Trabalhos e Projetos Pessoais' },
                 'all': { message: 'Todos' },
                 'web-page': { message: 'Página Web' },
-                'company-website': { message: 'Página de Empresa' },
+                'company-website': { message: 'Página Empresarial' },
                 'finance-app': { message: 'App de Controle Financeiro' },
                 'currency-app': { message: 'Conversor De Moedas' },
-                'game-dev': { message: 'Jogo de Memória' },
+                'game-dev': { message: 'Jogo da Memória' },
                 'doctor-page': { message: 'Dr. Página Pessoal' },
                 'lawyer-page': { message: 'Página Advocacia' },
 
                 'currency-converter': { message: 'Conversor de Moedas' },
-                'javascript-game': { message: 'Jogo de Memória' },
+                'javascript-game': { message: 'Jogo da Memória' },
                 'form-contact': { message: 'Formulário de Contato' },
                 'contact-me': { message: 'Contate-Me' },
                 'copyright': { message: 'Todos os Direitos Reservados' },
@@ -242,7 +230,11 @@ function update() {
                 'work': { message: "Freelancer, Web Developer and Front-end Developer." },
                 'hire': { message: 'Hire Me'},
                 'contact': { message: 'Contact'},
-                'social': { message: 'Social Media'},
+                'social': { message: 'Social Media' },
+                'cookies-privacy': { message: 'I value your privacy' },
+                'cookies-privacy-text': { message: 'This website uses navigation cookies for the best user experience and best performance. By using this website, you agree to the use of cookies.' },
+                'cookies-privacy-link': { message: 'Know more...' },
+                'cookies-privacy-button': { message: 'Accept' },
                 'about-me': { message: 'About Me, Personal Info'},
                 'web-xp': { message: 'Web Experience'},
                 'about-job': {message: "My name is Patrique Porto and I'm a passionate Frontend Web Developer using web technologies to create amazing web sites and products, focusing on solving problems for different niches and diferent markets using power of technology."},
@@ -307,7 +299,7 @@ function update() {
 
         };
 
-     //Translate function   
+     //Translate function
         function translate(id, locale) {
             let l = locales[locale];
 
