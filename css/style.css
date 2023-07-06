@@ -617,6 +617,12 @@ a:focus {
 
 }
 
+.social-media #sidebar .fab:hover {
+    font-size: 40px;
+    transition: .1s;
+
+}
+
 /******* Section Header ********/
 
 .section-header {
@@ -853,7 +859,7 @@ a:focus {
 }
 
 .fab:hover {
-    font-size: 45px;
+    font-size: 65px;
     transition: .3s;
 }
 
@@ -932,11 +938,16 @@ a:focus {
 
   }
 
+
   .fa-react {
     font-size: 3.0rem;
     color: #61dbfb;
     padding: 25px;
 
+}
+
+.fa-react:hover {
+    font-size: 65px;
 }
 
 .elixir-lang img {
@@ -959,16 +970,28 @@ a:focus {
     padding: 22px;
 }
 
+.fa-node:hover {
+    font-size: 65px;
+}
+
 .fa-gulp {
     font-size: 3.0rem;
     color: #c7291e;
     padding: 30px;
 }
 
+.fa-gulp:hover {
+    font-size: 65px;
+}
+
 .fa-sass {
     font-size: 2.8rem;
     color: #e908d6;
     padding: 25px;
+}
+
+.fa-sass:hover {
+    font-size: 65px;
 }
 
 /******* Learning CSS ********/
@@ -1719,7 +1742,7 @@ a:focus {
     .social-media #sidebar ul li a:hover {
         padding: 2px;
     }
-
+    
 
     /*About Section Mobile*/
     .about .container-fluid .about-content .section-header {
