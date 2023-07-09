@@ -1520,9 +1520,9 @@ a:focus {
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-size: 14px;
+    font-size: 15px;
     font-style: italic;
-    color: #ffffff;
+    color: #000;
 }
 
 @media (max-width: 767.98px) {
