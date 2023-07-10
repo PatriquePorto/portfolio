@@ -964,6 +964,20 @@ a:focus {
 
 }
 
+.typescript img {
+    width: 90px;
+    height: 90px;
+    transition: .3s;
+
+}
+
+.typescript img:hover {
+    transform: scale(1.5);
+    padding: 8px;
+    transition: .3s;
+
+}
+
 .fa-node {
     font-size: 2.8rem;
     color: #094109;
@@ -971,16 +985,6 @@ a:focus {
 }
 
 .fa-node:hover {
-    font-size: 65px;
-}
-
-.fa-gulp {
-    font-size: 3.0rem;
-    color: #c7291e;
-    padding: 30px;
-}
-
-.fa-gulp:hover {
     font-size: 65px;
 }
 
@@ -1844,6 +1848,13 @@ a:focus {
       margin-top: 12px;
     }
 
+    .about .loading-eclipse .loading-items .typescript img {
+        width: 40px;
+        height: 40px;
+        margin-left: 12px;
+        margin-top: 12px;
+      }
+
      /*Service Section */
 
     .service {
@@ -2190,7 +2201,7 @@ a:focus {
     }
 
     .about .container-fluid .loading-skill .loading-container {
-        left: -73%;
+        left: -68%;
         top: 35px;
         display: flex;
         width: 100%;
@@ -2226,6 +2237,13 @@ a:focus {
       margin-left: 2px;
       margin-top: 2px;
     }
+
+    .about .loading-eclipse .loading-items .typescript img {
+        width: 60px;
+        height: 60px;
+        margin-left: 2px;
+        margin-top: 2px;
+      }
 
 
       .service .container .service-item .service-text {
@@ -2567,7 +2585,7 @@ a:focus {
         }
 
         .about .container-fluid .loading-skill .loading-container {
-            left: -65%;
+            left: -57%;
             top: 35px;
             display: flex;
             width: 100%;
@@ -2727,7 +2745,7 @@ a:focus {
         .about .container-fluid .loading-skill .loading-container {
             width: 100%;
             align-items: center;
-            margin-left: -2%;
+            margin-left: 0;
             top: 20px;
         }
 
